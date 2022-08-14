@@ -68,21 +68,21 @@ export default function Home() {
                     <Image className="d-block" src="/car1.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                         <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
-                        <p>From India's Top 500 + Used Cars</p>
+                        <p>From India Top 500 + Used Cars</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
                 <Image className="d-block" src="/car2.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                        <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
-                        <p>From India's Top 500 + Used Cars</p>
+                        <p>From India Top 500 + Used Cars</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
                 <Image className="d-block" src="/car3.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                        <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
-                        <p>From India's Top 500 + Used Cars</p>
+                        <p>From India Top 500 + Used Cars</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
