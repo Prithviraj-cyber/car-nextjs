@@ -65,21 +65,21 @@ export default function Home() {
             {/* carouse start */}
             <Carousel className={styles.carousel}>
                 <Carousel.Item interval={1000}>
-                    <img className="d-block" src="/car1.jpg" alt="First slide" />
+                    <Image className="d-block" src="/car1.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                         <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
                         <p>From India's Top 500 + Used Cars</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item interval={500}>
-                <img className="d-block" src="/car2.jpg" alt="First slide" />
+                <Image className="d-block" src="/car2.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                        <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
                         <p>From India's Top 500 + Used Cars</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                <img className="d-block" src="/car3.jpg" alt="First slide" />
+                <Image className="d-block" src="/car3.jpg" alt="First slide" layout='responsive' width="100" height="43"/>
                     <Carousel.Caption className={styles.caption}>
                        <h3>Enjoy The <span> Freedome</span><br/> To Choose</h3>
                         <p>From India's Top 500 + Used Cars</p>
